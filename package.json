@@ -1,0 +1,39 @@
+{
+  "name": "nav2djs",
+  "homepage": "https://www.robotwebtools.org",
+  "description": "2D Navigation Widget for use with the ROS JavaScript Libraries",
+  "version": "0.4.0",
+  "scripts": {
+    "build": "grunt build",
+    "doc": "grunt doc",
+    "lint": "grunt lint",
+    "lint-fix": "grunt lint-fix",
+    "transpile": "DEBUG=* grunt transpile",
+    "test": "grunt test",
+    "publish": "npm run build"
+  },
+  "dependencies": {
+    "easeljs": "^1.0.2",
+    "eventemitter2": "^6.4.0",
+    "ros2d": "^0.10.0",
+    "roslib": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-execute": "git+https://github.com/gruntjs-updater/grunt-execute.git#peerDep",
+    "grunt-jsdoc": "^2.1.0",
+    "grunt-karma": "^4.0.0",
+    "grunt-pipe": "git+https://github.com/RobotWebTools/grunt-pipe.git",
+    "grunt-shell": "^4.0.0",
+    "gruntify-eslint": "^5.0.0",
+    "karma": "^6.3.0"
+  },
+  "directories": {
+    "example": "examples"
+  }
+}
